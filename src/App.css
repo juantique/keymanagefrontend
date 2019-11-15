@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    font-family: Roboto;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.App-titulo {
+    position: absolute;
+    width: 100%;
+    height: 64px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.App-formulario {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App-ingreso {
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+a {
+    font-size: 17px;
+    color: #099FF3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.App-ingreso {
+    border: solid 1px #cccccc;
+    padding: 30px;
+}
+
+.App-ubicacion {
+    padding: 15px;
+}
