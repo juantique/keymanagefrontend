@@ -1,0 +1,74 @@
+.formorigin {
+    font-family: roboto;
+    font-size: 14px;
+    text-align: left;
+    border-style: solid;
+    width: 30%;
+    height: 100%;
+    padding: 15px 15px;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 80px;
+    margin-left: 100px;
+    padding-bottom: 210px;
+    border-radius: 3px;
+}
+
+.form1 {
+    border-style: solid;
+    background: #11a4df;
+}
+
+.form2 {
+    border-style: solid;
+    background: #ff3333;
+}
+
+.formulariosecundario {
+    width: 100%;
+    float: left;
+    border-style: solid;
+    background: #ffff3f;
+}
+
+.div1 {
+    float: left;
+    width: 40%;
+    border-style: solid;
+}
+
+.div2 {
+    float: left;
+    width: 50%;
+    border-style: solid;
+}
+
+.div3 {
+    float: right;
+    width: 58.6%;
+    border-style: solid;
+}
+
+.div4 {
+    float: left;
+    width: 15%;
+    border-style: solid;
+}
+
+.div5 {
+    float: right;
+    width: 9%;
+    border-style: solid;
+}
+
+.div6 {
+    float: left;
+    width: 28%;
+    border-style: solid;
+}
+
+.div7 {
+    float: right;
+    width: 36%;
+    border-style: solid;
+}

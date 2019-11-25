@@ -1,10 +1,19 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import{
+  BrowserRouter as Router,
+  Route
+} from "react-router-dom";
+//import Registro from './Components/Apprecords';
+import Registro from './Components/Recover';
 import Titulofinal from './Componentes_primarios/Titulo';
 import Cajafinal from './Componentes_primarios/Cajatexto';
 import Passwordfinal from './Componentes_primarios/Cajapassword';
 import Buttonfinal from './Componentes_primarios/Button';
+import Option from './Components/Appoption';
+import Texto from './Componentes_primarios/Texto';
+
 /*
 function CajaTexto(props){
   return(
@@ -12,6 +21,7 @@ function CajaTexto(props){
   )
 }
 */
+
 
 class Name extends React.Component{
   render(){
@@ -31,7 +41,7 @@ class Ingreso extends React.Component{
           <div className="App-ubicacion"><Cajafinal placeholderCajaFinal = "Iniciar Sesion"></Cajafinal></div>
           <div className="App-ubicacion"><Passwordfinal placeholderPasswordFinal="Contraseña"></Passwordfinal></div>
           <div className="App-ubicacion"><Buttonfinal></Buttonfinal></div>
-          <p><a href="http://www.google.com">¿Has olvidado el id de ingreso o contraseña?</a></p>
+          <p><Texto descripcionenlace="¿Has olvidado el id de ingreso o contraseña?" hreftextofinal="http://www.google.com"></Texto></p>
           <p><a href="http://www.google.com">Nuevo Usuario</a></p>
         </div>
       </div>
@@ -50,6 +60,13 @@ class App extends React.Component{
         <div className=".App-ingreso">
           <Ingreso></Ingreso>
         </div>
+        <div>
+       <ul>
+      <li>primer elemento </li>
+      <li>segundo elemento </li>
+      <li>tercer elemento </li>
+      </ul>
+      </div>
       </header>
     </div>
     )

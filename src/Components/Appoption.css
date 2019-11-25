@@ -1,0 +1,50 @@
+.Opciones {
+    font-family: roboto;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 25%;
+    border-radius: 3px;
+}
+
+.div1 {
+    border-style: solid;
+    float: left;
+}
+
+.div2 {
+    border-style: solid;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.div3 {
+    border-style: solid;
+}
+
+.div4 {
+    border-style: solid;
+}
+
+.div5 {
+    border-style: solid;
+    float: right;
+}
+
+.div6 {
+    border-style: solid;
+    margin-top: 40px;
+}
+
+.div7 {
+    border-style: solid;
+    margin-top: 40px;
+}
+
+.div8 {
+    border-style: solid;
+    margin-top: 40px;
+}
