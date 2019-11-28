@@ -1,12 +1,14 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import{
-  BrowserRouter as Router,
-  Route
-} from "react-router-dom";
+import{ BrowserRouter as Router} from "react-router-dom";
+import Route from 'react-router-dom/Route';
+
+
+import Recovery from './Components/Apprecovery';
+import Urls1 from './Components/Appenlaces';
 //import Registro from './Components/Apprecords';
-import Registro from './Components/Recover';
+import Registro from './Components/Apprecovery';
 import Titulofinal from './Componentes_primarios/Titulo';
 import Cajafinal from './Componentes_primarios/Cajatexto';
 import Passwordfinal from './Componentes_primarios/Cajapassword';
@@ -52,6 +54,7 @@ class Ingreso extends React.Component{
 class App extends React.Component{
   render(){
     return(
+      <Router>
       <div className="App">
       <header className="App-header">
         <div className="">
@@ -60,15 +63,25 @@ class App extends React.Component{
         <div className=".App-ingreso">
           <Ingreso></Ingreso>
         </div>
-        <div>
-       <ul>
-      <li>primer elemento </li>
-      <li>segundo elemento </li>
-      <li>tercer elemento </li>
-      </ul>
-      </div>
       </header>
+      </div>
+    <div>
+        <Route path="/Appoption" exact render={
+          () => {
+            return (<Option></Option>);
+          }
+        }>
+        </Route>
     </div>
+    <div>
+        <Route path="/" exact render={
+          () => {
+            return (<Option></Option>);
+          }
+        }>
+        </Route>
+    </div>
+    </Router>
     )
   }
 }

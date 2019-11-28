@@ -1,50 +1,95 @@
 .Opciones {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
     font-family: roboto;
-    font-size: 14px;
-    text-align: center;
-    width: 100%;
-    max-width: 100%;
-    margin: auto;
-    padding-bottom: 25%;
-    border-radius: 3px;
+    height: 100vh;
 }
 
 .div1 {
-    border-style: solid;
     float: left;
+    margin: 0;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 48px;
+    font-weight: normal;
 }
 
 .div2 {
-    border-style: solid;
-    margin-top: 150px;
-    margin-left: 300px;
-    margin-right: 300px;
+    width: 600px;
+    height: 185px;
+    background: #ffffff;
+    color: #000000;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 5px 5px;
+    margin: 0;
 }
 
-.div3 {
-    border-style: solid;
+.circulo {
+    width: 126px;
+    height: 119px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #c4c4c4;
+    margin: 0 auto;
 }
 
 .div4 {
-    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .div5 {
-    border-style: solid;
     float: right;
+    width: 300px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 87%;
+    position: absolute;
 }
 
 .div6 {
     border-style: solid;
-    margin-top: 40px;
+    border-color: rgba(193, 245, 185, 0.65);
+    width: 90%;
+    height: 45%;
+    top: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px 5px;
+    margin: 0;
 }
 
 .div7 {
-    border-style: solid;
-    margin-top: 40px;
+    top: 90%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    margin: 0;
+    color: #099ff3;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
 }
 
 .div8 {
-    border-style: solid;
-    margin-top: 40px;
+    float: right;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    left: 90%;
+    position: absolute;
+    text-align: right;
+    color: #099ff3;
+    font-size: 18px;
 }
