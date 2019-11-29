@@ -47,6 +47,10 @@
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 a {
@@ -54,11 +58,6 @@ a {
     color: #099FF3;
     text-decoration: none;
     font-weight: bold;
-}
-
-.App-ingreso {
-    border: solid 1px #cccccc;
-    padding: 30px;
 }
 
 .App-ubicacion {
